@@ -12,7 +12,7 @@
         <Title>dotParse</Title>
         <Authors>Timothy Nunnink</Authors>
         <Description>A simple helper for flexibly parsing strings to value types.</Description>
-        <Version>0.1.0</Version>
+        <Version>1.0.0</Version>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>dotParse</PackageId>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
