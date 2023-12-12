@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotParse", "dotParse.csproj", "{CF88E4E0-FDC2-43A5-8F31-62CCB886D68D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotParse.Test", "..\test\dotParse.Test\dotParse.Test.csproj", "{C5BDAB38-8E13-4506-81B1-7FF4B4B4C12F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF88E4E0-FDC2-43A5-8F31-62CCB886D68D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF88E4E0-FDC2-43A5-8F31-62CCB886D68D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF88E4E0-FDC2-43A5-8F31-62CCB886D68D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF88E4E0-FDC2-43A5-8F31-62CCB886D68D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5BDAB38-8E13-4506-81B1-7FF4B4B4C12F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5BDAB38-8E13-4506-81B1-7FF4B4B4C12F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5BDAB38-8E13-4506-81B1-7FF4B4B4C12F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5BDAB38-8E13-4506-81B1-7FF4B4B4C12F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
