@@ -1,19 +1,33 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
         <TargetFramework>netstandard2.1</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <LangVersion>12</LangVersion>
         <AssemblyName>dotParse</AssemblyName>
         <RootNamespace>dotParse</RootNamespace>
-        <PackageId>dotParse</PackageId>
-        <Version>0.1.0</Version>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
         <Title>dotParse</Title>
         <Authors>Timothy Nunnink</Authors>
-        <Company>dotParse</Company>
-        <Product>dotParse</Product>
+        <Description>A simple helper for flexibly parsing strings to value types.</Description>
+        <Version>0.1.0</Version>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>dotParse</PackageId>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReleaseNotes>Initial Release.</PackageReleaseNotes>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageProjectUrl>https://github.com/tnunnink/dotParse</PackageProjectUrl>
+        <RepositoryType>git</RepositoryType>
+        <Copyright>Copyright (c) Timothy Nunnink 2023</Copyright>
+        <NeutralLanguage>en-US</NeutralLanguage>
     </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="..\README.md">
+        <Link>README.md</Link>
+      </Content>
+    </ItemGroup>
 
 </Project>
