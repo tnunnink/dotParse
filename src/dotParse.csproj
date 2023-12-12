@@ -17,7 +17,7 @@
         <PackageId>dotParse</PackageId>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageReleaseNotes>Initial Release.</PackageReleaseNotes>
-        <PackageReadmeFile>../README.md</PackageReadmeFile>
+        <PackageReadmeFile>./README.md</PackageReadmeFile>
         <PackageProjectUrl>https://github.com/tnunnink/dotParse</PackageProjectUrl>
         <RepositoryType>git</RepositoryType>
         <Copyright>Copyright (c) Timothy Nunnink 2023</Copyright>
@@ -25,9 +25,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Content Include="..\README.md">
-        <Link>README.md</Link>
-      </Content>
+        <None Include="..\README.md" Pack="true" PackagePath="\"/>
     </ItemGroup>
 
 </Project>
