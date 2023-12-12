@@ -9,15 +9,15 @@
         <RootNamespace>dotParse</RootNamespace>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>dotParse</Title>
         <Authors>Timothy Nunnink</Authors>
         <Description>A simple helper for flexibly parsing strings to value types.</Description>
         <Version>1.0.0</Version>
-        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>dotParse</PackageId>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageReleaseNotes>Initial Release.</PackageReleaseNotes>
-        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageReadmeFile>../README.md</PackageReadmeFile>
         <PackageProjectUrl>https://github.com/tnunnink/dotParse</PackageProjectUrl>
         <RepositoryType>git</RepositoryType>
         <Copyright>Copyright (c) Timothy Nunnink 2023</Copyright>

@@ -4,6 +4,9 @@ using System.Reflection;
 
 namespace dotParse;
 
+/// <summary>
+/// Provides methods for parsing string representations into objects of different types.
+/// </summary>
 public static class Parser
 {
     private static readonly Dictionary<Type, Func<string, object>> Parsers = new();
